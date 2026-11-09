@@ -1,0 +1,84 @@
+{
+  "version": 4,
+  "lines": [
+    [
+      {
+        "id": "model",
+        "type": "model",
+        "color": "cyan"
+      },
+      {
+        "id": "sep-1",
+        "type": "separator"
+      },
+      {
+        "id": "effort",
+        "type": "thinking-effort",
+        "metadata": {
+          "label": "🧠 "
+        }
+      },
+      {
+        "id": "sep-2",
+        "type": "separator"
+      },
+      {
+        "id": "account",
+        "type": "custom-command",
+        "commandPath": "~/.config/ccstatusline/account.sh",
+        "color": "yellow",
+        "timeout": 1000
+      },
+      {
+        "id": "sep-3",
+        "type": "separator"
+      },
+      {
+        "id": "context",
+        "type": "context-bar"
+      },
+      {
+        "id": "sep-4",
+        "type": "separator"
+      },
+      {
+        "id": "git-branch",
+        "type": "git-branch",
+        "color": "magenta"
+      },
+      {
+        "id": "sep-5",
+        "type": "separator"
+      },
+      {
+        "id": "tokens-cached",
+        "type": "tokens-cached"
+      }
+    ],
+    [],
+    []
+  ],
+  "flexMode": "full",
+  "compactThreshold": 60,
+  "colorLevel": 2,
+  "defaultPaddingSide": "both",
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "gitCacheTtlSeconds": 5,
+  "terminalWidthCacheTtlSeconds": 5,
+  "customCommandCacheTtlSeconds": 0,
+  "minimalistMode": false,
+  "powerline": {
+    "enabled": false,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [],
+    "autoAlign": false,
+    "continueThemeAcrossLines": false
+  }
+}
